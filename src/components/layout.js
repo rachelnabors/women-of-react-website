@@ -16,7 +16,8 @@ const Styled = createGlobalStyle`
   
 
   body {
-    font-family: 'Inconsolata', monospace;
+    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
     background: #F5DCDC;
     color: white;
   }

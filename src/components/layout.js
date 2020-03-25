@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from 'react'
-import normalize from 'normalize.css'
-import styled, { createGlobalStyle } from 'styled-components'
-import Logo from './logo'
+import React from "react"
+import normalize from "normalize.css"
+import styled, { createGlobalStyle } from "styled-components"
+import Logo from "./logo"
 
 const Styled = createGlobalStyle`
   ${normalize}
@@ -20,6 +20,10 @@ const Styled = createGlobalStyle`
     line-height: 1.5;
     background: #F5DCDC;
     color: white;
+
+    * {
+      box-sizing: border-box;
+    }
   }
 `
 
@@ -41,7 +45,7 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           width: 800,
-          maxWidth: '80%',
+          maxWidth: "80%",
         }}
       >
         <main>{children}</main>

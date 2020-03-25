@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import Buttons from './Buttons'
+import React from "react"
+import styled from "styled-components"
+import Buttons from "./Buttons"
 
 const CardComponent = styled.section`
   margin-top: 50px;
@@ -12,11 +12,15 @@ const CardComponent = styled.section`
   font-size: 18px;
   margin-bottom: 70px;
   position: relative;
+
+  @media screen and (min-width: 600px) {
+    padding: 70px 50px;
+  }
 `
 
 const Heading = styled.h2`
-  font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: inline;
   font-weight: 400;
   font-size: 18px;
@@ -36,17 +40,11 @@ const HeaderButtons = styled(Buttons)`
   top: 15px;
 `
 
-const Text = styled.p`
-  margin: 0;
-  padding: 0;
-  margin-left: 20px;
-`
-
 const Card = ({ header, children }) => (
   <CardComponent>
     <HeaderButtons />
     <Heading export>{header}</Heading>
-    <Text>{children}</Text>
+    {children}
   </CardComponent>
 )
 

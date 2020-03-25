@@ -5,13 +5,11 @@ import SimpleCard from "../components/SimpleCard"
 export default () => (
   <Layout>
     <SimpleCard header="Code of Conduct">
-      <h2 id="purpose">Purpose</h2>
-
+      <h2>Purpose</h2>
       <p>
-        A primary goal of all the conferences and user groups that refer to this
-        Code of Conduct is to be inclusive to the largest number of
-        contributors, with the most varied and diverse backgrounds possible. As
-        such, we are committed to providing a friendly, safe and welcoming
+        A primary goal of this Code of Conduct is to be inclusive to the largest
+        number of people, with the most varied and diverse backgrounds possible.
+        As such, we are committed to providing a friendly, safe and welcoming
         environment for all, regardless of gender, sexual orientation, ability,
         ethnicity, socioeconomic status and religion (or lack thereof).
       </p>
@@ -27,9 +25,7 @@ export default () => (
         and positive experiences for everyone.
       </p>
 
-      <h2 id="open-sourceculturetech-citizenship">
-        Open [Source/Culture/Tech] Citizenship
-      </h2>
+      <h2>Open [Source/Culture/Tech] Citizenship</h2>
 
       <p>
         A supplemental goal of this Code of Conduct is to increase open
@@ -50,7 +46,7 @@ export default () => (
         the fullest extent, we want to know.
       </p>
 
-      <h2 id="expected-behavior">Expected Behavior</h2>
+      <h2>Expected Behavior</h2>
 
       <ul>
         <li>
@@ -71,7 +67,7 @@ export default () => (
         </li>
       </ul>
 
-      <h2 id="unacceptable-behavior">Unacceptable Behavior</h2>
+      <h2>Unacceptable Behavior</h2>
 
       <p>
         Unacceptable behaviors include: intimidating, harassing, abusive,
@@ -92,9 +88,7 @@ export default () => (
         inappropriate physical contact, and unwelcome sexual attention.
       </p>
 
-      <h2 id="consequences-of-unacceptable-behavior">
-        Consequences of Unacceptable Behavior
-      </h2>
+      <h2>Consequences of Unacceptable Behavior</h2>
 
       <p>
         Unacceptable behavior from any community member, including sponsors and
@@ -109,9 +103,7 @@ export default () => (
         without warning (and without refund in the case of a paid event).
       </p>
 
-      <h2 id="if-you-witness-or-are-subject-to-unacceptable-behavior">
-        If You Witness or Are Subject to Unacceptable Behavior
-      </h2>
+      <h2>If You Witness or Are Subject to Unacceptable Behavior</h2>
 
       <p>
         If you are subject to or witness unacceptable behavior, or have any
@@ -125,7 +117,7 @@ export default () => (
         experiencing distress.
       </p>
 
-      <h2 id="addressing-grievances">Addressing Grievances</h2>
+      <h2>Addressing Grievances</h2>
 
       <p>
         If you feel you have been falsely or unfairly accused of violating this
@@ -134,7 +126,7 @@ export default () => (
         accordance with our existing governing policies.
       </p>
 
-      <h2 id="scope">Scope</h2>
+      <h2>Scope</h2>
 
       <p>
         We expect all community participants (contributors, paid or otherwise;

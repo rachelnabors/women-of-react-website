@@ -18,14 +18,14 @@ const Heading = styled.h2`
   font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: inline;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 18px;
   margin: 0;
   padding: 0;
   color: white;
   position: absolute;
   left: 50%;
-  top: 10px;
+  top: 4px;
   transform: translateX(-50%);
   color: #ff73c6;
 `

@@ -6,8 +6,8 @@ import SEO from '../components/seo'
 import styled from 'styled-components'
 import Card from '../components/Card'
 import SimpleCard from '../components/SimpleCard'
-import FacebookOSS from '../images/facebookOSS.jpg'
-import aws from '../images/aws.png'
+import FacebookOSS from '../sponsors/facebookOSS.jpg'
+import aws from '../sponsors/aws.png'
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -60,6 +60,10 @@ const Table = styled.table`
   th {
     font-weight: normal;
     text-align: left;
+  }
+
+  a {
+    color: #ff73c6;
   }
 `
 
@@ -192,12 +196,16 @@ const IndexPage = () => (
     <SimpleCard header="Sponsors">
       <Sponsors>
         <li>
-          <a target="_blank" href="https://aws.com">
+          <a rel="noopener noreferrer" target="_blank" href="https://aws.com">
             <img src={aws} alt="Amazon Web Services" />
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://facebook.com">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://facebook.com"
+          >
             <img src={FacebookOSS} alt="Facebook OSS" />
           </a>
         </li>

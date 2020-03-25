@@ -7,6 +7,10 @@ import Logo from "./logo"
 const Styled = createGlobalStyle`
   ${normalize}
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+  a {
+    color: #F5DCDC;
+  }
   
 
   body {

@@ -16,6 +16,16 @@ const CardComponent = styled.section`
   @media screen and (min-width: 600px) {
     padding: 70px 50px;
   }
+  a:link {
+    color: #61dafb;
+  }
+  a:visited {
+    color: #8d92df;
+  }
+  a:hover,
+  a:active {
+    color: #61dafb;
+  }
 `
 
 const Heading = styled.h2`

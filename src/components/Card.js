@@ -13,6 +13,17 @@ const CardComponent = styled.section`
   margin-bottom: 70px;
   position: relative;
   font-family: "Inconsolata", monospace;
+
+  a:link {
+    color: #61dafb;
+  }
+  a:visited {
+    color: #8d92df;
+  }
+  a:hover,
+  a:active {
+    color: #61dafb;
+  }
 `
 
 const Heading = styled.h2`

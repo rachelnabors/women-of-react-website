@@ -1,10 +1,4 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
+import { Link } from "gatsby"
 import React from "react"
 import normalize from "normalize.css"
 import styled, { createGlobalStyle } from "styled-components"
@@ -39,7 +33,9 @@ const Layout = ({ children }) => {
     <>
       <Styled />
       <Header>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
       </Header>
       <div
         style={{

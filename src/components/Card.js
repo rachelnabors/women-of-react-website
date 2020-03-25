@@ -1,6 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
-import Buttons from './Buttons'
+import React from "react"
+import styled from "styled-components"
+import Buttons from "./buttons"
 
 const CardComponent = styled.section`
   margin-top: 50px;
@@ -12,7 +12,7 @@ const CardComponent = styled.section`
   font-size: 18px;
   margin-bottom: 70px;
   position: relative;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 `
 
 const Heading = styled.h2`
@@ -25,22 +25,22 @@ const Heading = styled.h2`
   color: #ff73c6;
 
   :before {
-    content: 'export const ';
+    content: "export const ";
     color: #fce2bb;
   }
   :after {
-    content: ' = ';
+    content: " = ";
   }
 `
 
 const Space = styled.span`
   :before {
     color: #fce2bb;
-    content: '() ';
+    content: "() ";
   }
   :after {
     color: #ff73c6;
-    content: '=> ( ';
+    content: "=> ( ";
   }
 `
 
@@ -49,18 +49,18 @@ const Text = styled.p`
   padding: 0;
   margin-left: 20px;
   :before {
-    content: '<p>';
+    content: "<p>";
     color: #fce2bb;
   }
   :after {
-    content: '</p>';
+    content: "</p>";
     color: #fce2bb;
   }
 `
 
 const Code = styled.code`
   :after {
-    content: ');';
+    content: ");";
     color: #ff73c6;
   }
 `

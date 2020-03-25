@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import Buttons from "./Buttons"
+import Buttons from "./buttons"
 
 const CardComponent = styled.section`
   margin-top: 50px;

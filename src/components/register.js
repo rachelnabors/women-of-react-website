@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const Label = styled.label`
   padding-bottom: 5px;
@@ -119,7 +120,8 @@ export default () => {
               required
             />
             <Label for="mce-group[3946]-3946-0">
-              I have read and agree to abide by the Code of Conduct
+              I have read and agree to abide by the{" "}
+              <Link to="code-of-conduct">Code of Conduct</Link>
             </Label>
           </div>
           <div class="mc-field-group input-group">

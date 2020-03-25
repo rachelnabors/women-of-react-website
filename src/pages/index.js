@@ -34,6 +34,14 @@ const Online = styled.span`
   margin-top: 8px;
 `
 
+const Table = styled.table`
+  width: 100%;
+  th {
+    font-weight: normal;
+    text-align: left;
+  }
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Women of React" />
@@ -48,104 +56,117 @@ const IndexPage = () => (
       certainly changes your perspective.
     </Card>
     <SimpleCard header="Schedule">
-      <table>
+      <Table>
         <thead>
           <tr>
-            <th id="zone_MPK" scope="col">
+            <th colspan="1"></th>
+            <th scope="col">
               <attr title="Pacific Standard Time">PST</attr>
             </th>
-            <th id="zone_NYC" scope="col">
+            <th scope="col">
               <attr title="Eastern Standard Time">EST</attr>
             </th>
-            <th id="zone_LON" scope="col">
+            <th scope="col">
               <attr title="Greenwich Median Time">GMT</attr>
-            </th>
-            <th id="desc" scope="col">
-              Description
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td headers="zone_MPK">09:30</td>
-            <td headers="zone_NYC">12:30</td>
-            <td headers="zone_LON">16:30</td>
-            <td headers="desc">Social Session 1</td>
-          </tr>
-          <tr>
-            <td>08:00</td>
-            <td>11:00</td>
-            <td>16:00</td>
-            <td>Welcome Talk</td>
-          </tr>
-          <tr>
-            <td>08:15</td>
-            <td>11:15</td>
-            <td>16:15</td>
-            <td>Talk 1</td>
-          </tr>
-          <tr>
-            <td>08:50</td>
-            <td>11:50</td>
-            <td>16:50</td>
-            <td>Talk 2</td>
-          </tr>
-          <tr>
+            <th scope="row">Social Milling</th>
             <td>09:30</td>
             <td>12:30</td>
-            <td>17:30</td>
-            <td>Talk 3</td>
+            <td>16:30</td>
           </tr>
           <tr>
-            <td>10:05</td>
-            <td>13:05</td>
-            <td>18:05</td>
-            <td>Talk 4</td>
-          </tr>
-          <tr>
-            <td>10:30</td>
-            <td>13:30</td>
-            <td>18:30</td>
-            <td>Social Session 2</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-            <td>14:30</td>
-            <td>19:30</td>
-            <td>Talk 5</td>
-          </tr>
-          <tr>
-            <td>12:05</td>
-            <td>15:05</td>
-            <td>20:05</td>
-            <td>Talk 6</td>
-          </tr>
-          <tr>
+            <th scope="row">
+              Welcome Talk with{' '}
+              <a href="https://twitter.com/rachelnabors">Rachel Nabors</a>
+            </th>
+            <td>9:45</td>
             <td>12:45</td>
-            <td>15:45</td>
-            <td>20:45</td>
-            <td>Talk 7</td>
+            <td>16:45</td>
           </tr>
           <tr>
-            <td>13:20</td>
-            <td>16:20</td>
-            <td>21:20</td>
-            <td>Talk 8</td>
-          </tr>
-          <tr>
-            <td>14:00</td>
+            <th scope="row">Talk 1</th>
+            <td>10:00</td>
+            <td>13:00</td>
             <td>17:00</td>
-            <td>22:00</td>
-            <td>Social Session 3</td>
           </tr>
           <tr>
+            <th scope="row">Talk 2</th>
+            <td>10:35</td>
+            <td>13:35</td>
+            <td>17:35</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 3</th>
+            <td>11:10</td>
+            <td>14:10</td>
+            <td>18:10</td>
+          </tr>
+          <tr>
+            <th scope="row">Longer Break—Grab a bite to eat</th>
+            <td>11:45</td>
+            <td>14:45</td>
+            <td>18:45</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 4</th>
+            <td>12:30</td>
+            <td>15:30</td>
+            <td>19:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 5</th>
+            <td>13:05</td>
+            <td>16:05</td>
+            <td>20:05</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 6</th>
+            <td>13:40</td>
+            <td>16:40</td>
+            <td>20:40</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td>14:15</td>
+            <td>17:15</td>
+            <td>21:15</td>
+          </tr>
+          <tr>
+            <th scope="row">Lightning Talks</th>
+            <td>14:30</td>
+            <td>17:30</td>
+            <td>21:30</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 7</th>
             <td>15:00</td>
             <td>18:00</td>
-            <td>23:00</td>
-            <td>Event Ends</td>
+            <td>22:00</td>
+          </tr>
+          <tr>
+            <th scope="row">Talk 8</th>
+            <td>15:35</td>
+            <td>17:35</td>
+            <td>22:35</td>
+          </tr>
+          <tr>
+            <th scope="row">Q &amp; A</th>
+            <td>16:10</td>
+            <td>19:10</td>
+            <td>23:10</td>
+          </tr>
+          <tr>
+            <th scope="row">Goodbye, we love you!</th>
+            <td>17:00</td>
+            <td>20:00</td>
+            <td>24:00</td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </SimpleCard>
   </Layout>
 )

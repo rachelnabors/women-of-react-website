@@ -112,7 +112,7 @@ export default () => {
             />
           </div>
           <div style={{ marginBottom: 10 }}>
-            <input
+            <Input
               type="checkbox"
               name="group[3946][2]"
               class="required"

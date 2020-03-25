@@ -133,19 +133,19 @@ const IndexPage = () => (
             <td>18:45</td>
           </tr>
           <tr>
-            <th scope="row">Talk 4</th>
+            <th scope="row">Fireside Chat</th>
             <td>12:30</td>
             <td>15:30</td>
             <td>19:30</td>
           </tr>
           <tr>
-            <th scope="row">Talk 5</th>
+            <th scope="row">Talk 4</th>
             <td>13:05</td>
             <td>16:05</td>
             <td>20:05</td>
           </tr>
           <tr>
-            <th scope="row">Talk 6</th>
+            <th scope="row">Talk 5</th>
             <td>13:40</td>
             <td>16:40</td>
             <td>20:40</td>
@@ -163,19 +163,19 @@ const IndexPage = () => (
             <td>21:30</td>
           </tr>
           <tr>
-            <th scope="row">Talk 7</th>
+            <th scope="row">Talk 6</th>
             <td>15:00</td>
             <td>18:00</td>
             <td>22:00</td>
           </tr>
           <tr>
-            <th scope="row">Talk 8</th>
+            <th scope="row">Talk 7</th>
             <td>15:35</td>
             <td>17:35</td>
             <td>22:35</td>
           </tr>
           <tr>
-            <th scope="row">Q &amp; A</th>
+            <th scope="row">Q & A</th></th>
             <td>16:10</td>
             <td>19:10</td>
             <td>23:10</td>

@@ -37,6 +37,12 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+  }
 `
 
 const Layout = ({ children }) => {

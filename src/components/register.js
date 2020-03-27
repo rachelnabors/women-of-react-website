@@ -1,73 +1,9 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-
-const Label = styled.label`
-  padding-bottom: 5px;
-  font-size: 13px;
-  display: inline-block;
-`
-
-const Input = styled.input`
-  border-radius: 2px;
-  margin-bottom: 10px;
-  width: 100%;
-  border: none;
-  color: white;
-
-  &[type="text"],
-  &[type="email"] {
-    display: block;
-    border: none;
-    padding: 8px 10px;
-    background: #353177;
-    border: 1px solid #5e5a9c;
-  }
-
-  &[type="checkbox"] {
-    width: auto;
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  &[type="submit"] {
-    display: block;
-    margin-top: 20px;
-    border: none;
-    background: #8d92df;
-    padding: 8px 12px;
-    color: #131042;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-`
-
-const Stack = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-
-  @media screen and (max-width: 600px) {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-  }
-`
+import "./form.css"
 
 export default () => {
-  const [submitted, setSubmitted] = useState(false)
-
-  if (submitted) {
-    return (
-      <>
-        <h1 style={{ textAlign: "center" }}>Thank you 🎉</h1>
-        <p style={{ textAlign: "center" }}>
-          There's one more step... Please check your inbox and confirm your
-          email address 📧
-        </p>
-      </>
-    )
-  }
-
   return (
     <div id="mc_embed_signup" style={{ width: "100%" }}>
       <form
@@ -79,10 +15,10 @@ export default () => {
         target="_blank"
       >
         <div id="mc_embed_signup_scroll">
-          <Stack class="mc-field-group">
+          <div class="stack">
             <div>
-              <Label for="mce-FNAME">First Name</Label>
-              <Input
+              <label for="mce-FNAME">First Name</label>
+              <input
                 type="text"
                 name="FNAME"
                 class="required"
@@ -91,8 +27,8 @@ export default () => {
               />
             </div>
             <div>
-              <Label for="mce-LNAME">Last Name</Label>
-              <Input
+              <label for="mce-LNAME">Last Name</label>
+              <input
                 type="text"
                 name="LNAME"
                 class="required"
@@ -100,10 +36,10 @@ export default () => {
                 required
               />
             </div>
-          </Stack>
+          </div>
           <div class="mc-field-group">
-            <Label for="mce-EMAIL">Email Address</Label>
-            <Input
+            <label for="mce-EMAIL">Email Address</label>
+            <input
               type="email"
               name="EMAIL"
               class="required email"
@@ -112,28 +48,28 @@ export default () => {
             />
           </div>
           <div style={{ marginBottom: 10 }}>
-            <Input
+            <input
               type="checkbox"
               name="group[3946][2]"
               class="required"
               id="mce-group[3946]-3946-0"
               required
             />
-            <Label for="mce-group[3946]-3946-0">
+            <label for="mce-group[3946]-3946-0">
               I have read and agree to abide by the{" "}
               <Link to="code-of-conduct">Code of Conduct</Link>
-            </Label>
+            </label>
           </div>
           <div class="mc-field-group input-group">
-            <Input
+            <input
               type="checkbox"
               name="group[3942][1]"
               id="mce-group[3942]-3942-0"
             />
-            <Label style={{ display: "inline" }}>
+            <label style={{ display: "inline" }}>
               I'd like to receive communications about future Women of React
               events and news <strong>(Optional)</strong>
-            </Label>
+            </label>
           </div>
           <div id="mce-responses" class="clear">
             <div
@@ -151,14 +87,14 @@ export default () => {
             style={{ position: "absolute", left: "-5000px" }}
             aria-hidden="true"
           >
-            <Input
+            <input
               type="text"
               name="b_b3435742d799f1fefa641731f_e6a6123095"
               tabindex="-1"
             />
           </div>
           <div class="clear">
-            <Input
+            <input
               type="submit"
               value="Subscribe"
               name="subscribe"

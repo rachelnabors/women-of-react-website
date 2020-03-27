@@ -3,6 +3,7 @@ import React from "react"
 import normalize from "normalize.css"
 import styled, { createGlobalStyle } from "styled-components"
 import Logo from "./logo"
+import bg from "../images/bg_diag.svg"
 
 const Styled = createGlobalStyle`
   ${normalize}
@@ -11,8 +12,9 @@ const Styled = createGlobalStyle`
   body {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
-    background: #F5DCDC;
+    background: #F5DCDC url(${bg}) left bottom no-repeat;
     color: white;
+    padding: 0 1em;
 
     * {
       box-sizing: border-box;
@@ -24,6 +26,9 @@ const Styled = createGlobalStyle`
     color: #130f41;
     margin-bottom: 4em;
   }
+
+  dt { font-weight: bold }
+  dd { margin-bottom: 1em}
 `
 
 const Header = styled.header`
@@ -45,8 +50,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          width: 800,
-          maxWidth: "80%",
+          maxWidth: 800,
         }}
       >
         <main>{children}</main>

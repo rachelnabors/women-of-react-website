@@ -1,14 +1,20 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
 
-import Layout from '../components/layout'
-import Illustration from '../components/illustration'
-import SEO from '../components/seo'
-import styled from 'styled-components'
-import Card from '../components/Card'
-import SimpleCard from '../components/SimpleCard'
-import Register from '../components/register'
-import FacebookOSS from '../sponsors/facebookOSS.jpg'
-import aws from '../sponsors/aws.png'
+import Layout from "../components/layout"
+import Illustration from "../components/illustration"
+import SEO from "../components/seo"
+import styled from "styled-components"
+import Card from "../components/Card"
+import SimpleCard from "../components/SimpleCard"
+import Register from "../components/register"
+import FacebookOSS from "../sponsors/facebookOSS.jpg"
+import aws from "../sponsors/aws.png"
+import Glitch from "../components/glitch"
+import glitch1 from "../images/glitch1.svg"
+import glitch2 from "../images/glitch2.svg"
+import glitch3 from "../images/glitch3.svg"
+import glitch4 from "../images/glitch4.svg"
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -73,15 +79,27 @@ const IndexPage = () => (
     <SEO title="Women of React" />
     <MainIllustration />
     <Banner>
-      April 25, 2020 <Online>Online Conference</Online>
+      Sat, April 25, 2020 <Online>Online Conference</Online>
     </Banner>
     <Card header="WomenOfReact">
-      Women of React is a conference for women... The event is taking place on
-      April 25, 2020. For those who have seen the Earth from space, and for the
-      hundreds and perhaps thousands more who will, the experience most
-      certainly changes your perspective.
+      Women of React is an online conference where women take the (virtual)
+      stage, but everyone is welcome to attend and participate! Watch the
+      stream, ask your questions, forge new and meaningful connections, learn a
+      little, laugh a little. Put together by and for women working with React,
+      this event is small, from the heart, and very much a labor of love meant
+      to bring people together.
+      <Glitch
+        width="220"
+        src={glitch2}
+        style={{ bottom: "8px", left: "-104px" }}
+      />
     </Card>
     <SimpleCard header="Schedule">
+      <Glitch
+        width="296"
+        src={glitch4}
+        style={{ bottom: "18px", right: "-129px" }}
+      />
       <Table>
         <thead>
           <tr>
@@ -106,7 +124,7 @@ const IndexPage = () => (
           </tr>
           <tr>
             <th scope="row">
-              Welcome Talk with{' '}
+              Welcome Talk with{" "}
               <a href="https://twitter.com/rachelnabors">Rachel Nabors</a>
             </th>
             <td>9:45</td>
@@ -197,7 +215,46 @@ const IndexPage = () => (
     <SimpleCard header="Register">
       <Register />
     </SimpleCard>
+    <SimpleCard header="Frequently Asked Questions">
+      <dl>
+        <dt>Why are you doing this?</dt>
+        <dd>Because we want to bring women who work with React together.</dd>
+        <dt>Who can attend?</dt>
+        <dd>
+          Anyone can attend—so long as they adhere to our{" "}
+          <Link to="code-of-conduct">Code of Conduct</Link>.
+        </dd>
+        <dt>What does it cost?</dt>
+        <dd>Nothing! It's free!</dd>
+        <dt>Will it be captioned?</dt>
+        <dd>Yes! We will have live captioning!</dd>
+        <dt>Can I sponsor this event?</dt>
+        <dd>
+          Nope! We took care of all our basic costs ourselves! This event is
+          entirely free and from the heart &lt;3
+        </dd>
+        <dt>Will there be moderation?</dt>
+        <dd>
+          Yes! We have a zero-troll policy and the mods to enforce it. (We
+          always need more mods!{" "}
+          <a href="mailto:organizers@womenofreact.com">Contact us</a> to
+          volunteer!)
+        </dd>
+        <dt>Will I need to be on video?</dt>
+        <dd>No! Using your camera is not necessary for participating!</dd>
+      </dl>
+      <Glitch
+        width="256"
+        src={glitch3}
+        style={{ bottom: "18px", right: "-84px" }}
+      />
+    </SimpleCard>
     <SimpleCard header="Sponsors">
+      <Glitch
+        width="304"
+        src={glitch1}
+        style={{ bottom: "10px", left: "-129px" }}
+      />
       <Sponsors>
         <li>
           <a rel="noopener noreferrer" target="_blank" href="https://aws.com">

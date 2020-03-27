@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Women of React`,
-    description: `Women of React is a one day online conference to celebrate the women that make the react community`,
+    description: `Women of React—April 25, 2020—is a one day online conference to celebrate the women that make the react community`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

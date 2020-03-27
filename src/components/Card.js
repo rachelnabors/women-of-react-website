@@ -59,6 +59,10 @@ const Text = styled.p`
   margin: 0;
   padding: 0;
   margin-left: 20px;
+
+  @media screen and (max-width: 600px) {
+    margin-left: 10px;
+  }
 `
 
 const Code = styled.code`

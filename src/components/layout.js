@@ -34,6 +34,7 @@ const Styled = createGlobalStyle`
 const Header = styled.header`
   margin: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 `
@@ -43,9 +44,7 @@ const Layout = ({ children }) => {
     <>
       <Styled />
       <Header>
-        <Link to="/">
-          <Logo />
-        </Link>
+        <Logo />
       </Header>
       <div
         style={{

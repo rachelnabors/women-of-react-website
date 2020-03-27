@@ -66,7 +66,7 @@ export default () => {
               name="group[3942][1]"
               id="mce-group[3942]-3942-0"
             />
-            <label style={{ display: "inline" }}>
+            <label style={{ display: "inline" }} for="mce-group[3942]-3942-0">
               I'd like to receive communications about future Women of React
               events and news <strong>(Optional)</strong>
             </label>

@@ -15,6 +15,10 @@ import glitch1 from "../images/glitch1.svg"
 import glitch2 from "../images/glitch2.svg"
 import glitch3 from "../images/glitch3.svg"
 import glitch4 from "../images/glitch4.svg"
+import jenn from "../images/p_jenn-c.jpg"
+import rachel from "../images/p_rachel-n.jpg"
+import sara from "../images/p_sara-v.jpg"
+import kevin from "../images/p_kevin.jpg"
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -23,22 +27,33 @@ const MainIllustration = styled(Illustration)`
   height: auto;
 `
 
-const Sponsors = styled.ul`
-  display: grid;
+const ImageGrid = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+
+  &.folks img {
+    border-radius: 50%;
+  }
+
+  p {
+    margin: 12px 0 0 0;
+  }
 
   li {
-    margin: 0;
+    display: inline-block;
+    margin: 0 10px;
     padding: 0;
     text-align: center;
+    width: calc(25% - 20px);
   }
 
   img {
     width: 100%;
+    display: block;
   }
 `
 
@@ -49,11 +64,13 @@ const Banner = styled.div`
   background: #130f41;
   margin: auto;
   text-align: center;
-  margin-top: -100px;
+  margin-bottom: -65px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 `
 
 const Online = styled.span`
@@ -77,10 +94,10 @@ const Table = styled.table`
 const IndexPage = () => (
   <Layout>
     <SEO title="Women of React" />
-    <MainIllustration />
     <Banner>
       Sat, April 25, 2020 <Online>Online Conference</Online>
     </Banner>
+    <MainIllustration />
     <Card header="WomenOfReact">
       Women of React is an online conference where women take the (virtual)
       stage, but everyone is welcome to attend and participate! Watch the
@@ -249,13 +266,45 @@ const IndexPage = () => (
         style={{ bottom: "18px", right: "-84px" }}
       />
     </SimpleCard>
+    <SimpleCard header="Team">
+      <ImageGrid className="folks">
+        <li>
+          <a target="_blank" href="https://twitter.com/gurlcode">
+            <img src={jenn} alt="" />
+            <p>Jenn Creighton</p>
+          </a>
+          Organizer, Mod Maven
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/NikkitaFTW">
+            <img src={sara} alt="" />
+            <p>Sara Vieira</p>
+          </a>
+          Organizer, Lightning Wrangler
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/rachelnabors">
+            <img src={rachel} alt="" />
+            <p>Rachel Nabors</p>
+          </a>
+          Organizer, Instigator
+        </li>
+        <li>
+          <a target="_blank" href="https://twitter.com/_phzn">
+            <img src={kevin} alt="" />
+            <p>Kevin Lewis</p>
+          </a>
+          A/V Crew
+        </li>
+      </ImageGrid>
+    </SimpleCard>
     <SimpleCard header="Sponsors">
       <Glitch
         width="304"
         src={glitch1}
         style={{ bottom: "10px", left: "-129px" }}
       />
-      <Sponsors>
+      <ImageGrid>
         <li>
           <a rel="noopener noreferrer" target="_blank" href="https://aws.com">
             <img src={aws} alt="Amazon Web Services" />
@@ -270,7 +319,7 @@ const IndexPage = () => (
             <img src={FacebookOSS} alt="Facebook OSS" />
           </a>
         </li>
-      </Sponsors>
+      </ImageGrid>
     </SimpleCard>
   </Layout>
 )

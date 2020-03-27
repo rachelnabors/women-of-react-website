@@ -59,14 +59,6 @@ const Text = styled.p`
   margin: 0;
   padding: 0;
   margin-left: 20px;
-  :before {
-    content: "<p>";
-    color: #fce2bb;
-  }
-  :after {
-    content: "</p>";
-    color: #fce2bb;
-  }
 `
 
 const Code = styled.code`

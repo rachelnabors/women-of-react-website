@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
+import CodeElement from "../components/CodeElement"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import Card from "../components/Card"
@@ -27,7 +28,7 @@ const Sponsors = styled.ul`
   display: grid;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 8px;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 
@@ -49,7 +50,7 @@ const Banner = styled.div`
   background: #130f41;
   margin: auto;
   text-align: center;
-  margin-top: -100px;
+  margin-top: -50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -63,15 +64,32 @@ const Online = styled.span`
 `
 
 const Table = styled.table`
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
   width: 100%;
+
+  tbody tr:nth-child(odd) {
+    background-color: #221e4e;
+  }
+
+  td {
+    padding: 8px;
+  }
+
   th {
     font-weight: normal;
     text-align: left;
+    padding: 8px;
   }
 
   a {
     color: #ff73c6;
   }
+`
+
+const Dl = styled.dl`
+  color: ;
 `
 
 const IndexPage = () => (
@@ -82,24 +100,26 @@ const IndexPage = () => (
       Sat, April 25, 2020 <Online>Online Conference</Online>
     </Banner>
     <Card header="WomenOfReact">
+      <CodeElement element="<p>" />
       Women of React is an online conference where women take the (virtual)
       stage, but everyone is welcome to attend and participate! Watch the
       stream, ask your questions, forge new and meaningful connections, learn a
       little, laugh a little. Put together by and for women working with React,
       this event is small, from the heart, and very much a labor of love meant
       to bring people together.
-      <Glitch
+      <CodeElement element="</p>" />
+      {/* <Glitch
         width="220"
         src={glitch2}
         style={{ bottom: "8px", left: "-104px" }}
-      />
+      /> */}
     </Card>
-    <SimpleCard header="Schedule">
-      <Glitch
+    <Card header="Schedule">
+      {/* <Glitch
         width="296"
         src={glitch4}
         style={{ bottom: "18px", right: "-129px" }}
-      />
+      /> */}
       <Table>
         <thead>
           <tr>
@@ -211,12 +231,12 @@ const IndexPage = () => (
           </tr>
         </tbody>
       </Table>
-    </SimpleCard>
-    <SimpleCard header="Register">
+    </Card>
+    <Card header="Register">
       <Register />
-    </SimpleCard>
-    <SimpleCard header="Frequently Asked Questions">
-      <dl>
+    </Card>
+    <Card header="Frequently Asked Questions">
+      <Dl>
         <dt>Why are you doing this?</dt>
         <dd>Because we want to bring women who work with React together.</dd>
         <dt>Who can attend?</dt>
@@ -242,19 +262,20 @@ const IndexPage = () => (
         </dd>
         <dt>Will I need to be on video?</dt>
         <dd>No! Using your camera is not necessary for participating!</dd>
-      </dl>
-      <Glitch
+      </Dl>
+      {/* <Glitch
         width="256"
         src={glitch3}
         style={{ bottom: "18px", right: "-84px" }}
-      />
-    </SimpleCard>
-    <SimpleCard header="Sponsors">
-      <Glitch
+      /> */}
+    </Card>
+
+    <Card header="Sponsors">
+      {/* <Glitch
         width="304"
         src={glitch1}
         style={{ bottom: "10px", left: "-129px" }}
-      />
+      /> */}
       <Sponsors>
         <li>
           <a rel="noopener noreferrer" target="_blank" href="https://aws.com">
@@ -271,7 +292,7 @@ const IndexPage = () => (
           </a>
         </li>
       </Sponsors>
-    </SimpleCard>
+    </Card>
   </Layout>
 )
 

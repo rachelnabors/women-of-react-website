@@ -25,7 +25,7 @@ input[type="submit"] {
   display: block;
   margin-top: 20px;
   border: none;
-  background: #8d92df;
+  background: #ff73c6;
   padding: 8px 12px;
   color: #131042;
   border-radius: 4px;
@@ -49,4 +49,8 @@ label {
     grid-template-columns: 1fr;
     grid-gap: 0;
   }
+}
+
+.form {
+  padding: 8px;
 }

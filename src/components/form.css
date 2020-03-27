@@ -1,0 +1,52 @@
+input {
+  border-radius: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+  display: block;
+  border: none;
+  padding: 8px 10px;
+  background: #353177;
+  border: 1px solid #5e5a9c;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  background: #8d92df;
+  padding: 8px 12px;
+  color: #131042;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  padding-bottom: 5px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .stack {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}

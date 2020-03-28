@@ -5,7 +5,7 @@ import "./form.css"
 
 export default () => {
   return (
-    <div id="mc_embed_signup" style={{ width: "100%" }}>
+    <div id="mc_embed_signup" style={{ width: "100%" }} className="form">
       <form
         action="https://womenofreact.us19.list-manage.com/subscribe/post?u=b3435742d799f1fefa641731f&amp;id=e6a6123095"
         method="post"

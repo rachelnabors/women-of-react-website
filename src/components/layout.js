@@ -9,6 +9,11 @@ const Styled = createGlobalStyle`
   ${normalize}
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   body {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
@@ -37,6 +42,12 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 100%;
+    }
+  }
 `
 
 const Layout = ({ children }) => {

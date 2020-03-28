@@ -15,7 +15,7 @@ const IllustrationContainer = styled.section`
 
 const Illustration = props => (
   <IllustrationContainer style={{ position: "relative" }}>
-    {/* <Glitch
+    <Glitch
       width="304"
       src={glitch1}
       style={{ top: "102px", left: "-129px" }}
@@ -24,7 +24,7 @@ const Illustration = props => (
       width="296"
       src={glitch4}
       style={{ bottom: "98px", right: "-129px" }}
-    /> */}
+    />
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="800"

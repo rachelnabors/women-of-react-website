@@ -66,6 +66,8 @@ const Text = styled.p`
 `
 
 const Code = styled.code`
+  font-family: --apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   :after {
     content: ");";
     color: #ff73c6;
@@ -78,14 +80,12 @@ const HeaderButtons = styled(Buttons)`
   top: 15px;
 `
 
-const Card = ({ header, children }) => (
+const Card = ({ header, children, text }) => (
   <CardComponent>
     <HeaderButtons />
     <Heading export>{header}</Heading>
     <Space />
-    <Code>
-      <Text>{children}</Text>
-    </Code>
+    <Code>{text ? <Text>{children}</Text> : children}</Code>
   </CardComponent>
 )
 

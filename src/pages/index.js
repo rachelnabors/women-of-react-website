@@ -37,6 +37,10 @@ const ImageGrid = styled.ul`
   align-items: flex-start;
   padding: 8px;
 
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
   &.folks img {
     border-radius: 50%;
   }
@@ -51,11 +55,21 @@ const ImageGrid = styled.ul`
     padding: 0;
     text-align: center;
     width: calc(25% - 20px);
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      padding-bottom: 40px;
+    }
   }
 
   img {
-    width: 100%;
+    max-width: 120px;
     display: block;
+    margin: 0 auto;
+
+    @media screen and (max-width: 600px) {
+      max-width: 150px;
+    }
   }
 `
 
@@ -121,7 +135,7 @@ const IndexPage = () => (
       Sat, April 25, 2020 <Online>Online Conference</Online>
     </Banner>
     <MainIllustration />
-    <Card header="WomenOfReact">
+    <Card header="WomenOfReact" text>
       <CodeElement element="<p>" />
       Women of React is an online conference where women take the (virtual)
       stage, but everyone is welcome to attend and participate! Watch the
@@ -130,18 +144,18 @@ const IndexPage = () => (
       this event is small, from the heart, and very much a labor of love meant
       to bring people together.
       <CodeElement element="</p>" />
-      {/* <Glitch
+      <Glitch
         width="220"
         src={glitch2}
         style={{ bottom: "8px", left: "-104px" }}
-      /> */}
+      />
     </Card>
     <Card header="Schedule">
-      {/* <Glitch
+      <Glitch
         width="296"
         src={glitch4}
         style={{ bottom: "18px", right: "-129px" }}
-      /> */}
+      />
       <Table>
         <thead>
           <tr>
@@ -285,11 +299,11 @@ const IndexPage = () => (
         <dt>Will I need to be on video?</dt>
         <dd>No! Using your camera is not necessary for participating!</dd>
       </Dl>
-      {/* <Glitch
+      <Glitch
         width="256"
         src={glitch3}
         style={{ bottom: "18px", right: "-84px" }}
-      />*/}
+      />
     </Card>
     <Card header="Team">
       <ImageGrid className="folks">
@@ -324,11 +338,11 @@ const IndexPage = () => (
       </ImageGrid>
     </Card>
     <Card header="Sponsors">
-      {/* <Glitch
+      <Glitch
         width="304"
         src={glitch1}
         style={{ bottom: "10px", left: "-129px" }}
-      /> */}
+      />
       <ImageGrid>
         <li>
           <a rel="noopener noreferrer" target="_blank" href="https://aws.com">

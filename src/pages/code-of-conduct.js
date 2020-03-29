@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
-import SimpleCard from "../components/SimpleCard"
+import Card from "../components/Card"
 
 export default () => (
   <Layout>
-    <SimpleCard header="Code of Conduct">
+    <Card header="Code of Conduct">
       <h2>Purpose</h2>
       <p>
         A primary goal of this Code of Conduct is to be inclusive to the largest
@@ -134,6 +134,6 @@ export default () => (
         community venues—online and in-person—as well as in all one-on-one
         communications pertaining to community business.
       </p>
-    </SimpleCard>
+    </Card>
   </Layout>
 )

@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "dev": "netlify dev",
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

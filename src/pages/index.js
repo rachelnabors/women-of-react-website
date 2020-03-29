@@ -7,7 +7,6 @@ import CodeElement from "../components/CodeElement"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import Card from "../components/Card"
-import SimpleCard from "../components/SimpleCard"
 import Register from "../components/register"
 import FacebookOSS from "../sponsors/facebookOSS.jpg"
 import aws from "../sponsors/aws.png"
@@ -124,9 +123,7 @@ const Table = styled.table`
   }
 `
 
-const Dl = styled.dl`
-  color: ;
-`
+const Dl = styled.dl``
 
 const IndexPage = () => (
   <Layout>
@@ -308,28 +305,44 @@ const IndexPage = () => (
     <Card header="Team">
       <ImageGrid className="folks">
         <li>
-          <a target="_blank" href="https://twitter.com/gurlcode">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/gurlcode"
+          >
             <img src={jenn} alt="" />
             <p>Jenn Creighton</p>
           </a>
           Organizer, Mod Maven
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/NikkitaFTW">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/NikkitaFTW"
+          >
             <img src={sara} alt="" />
             <p>Sara Vieira</p>
           </a>
           Organizer, Lightning Wrangler
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/rachelnabors">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/rachelnabors"
+          >
             <img src={rachel} alt="" />
             <p>Rachel Nabors</p>
           </a>
           Organizer, Instigator
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/_phzn">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/_phzn"
+          >
             <img src={kevin} alt="" />
             <p>Kevin Lewis</p>
           </a>

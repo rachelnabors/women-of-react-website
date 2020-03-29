@@ -85,6 +85,7 @@ const Card = ({ header, children, text }) => (
     <HeaderButtons />
     <Heading export>{header}</Heading>
     <Space />
+    <div style={{ marginBottom: 16 }} />
     <Code>{text ? <Text>{children}</Text> : children}</Code>
   </CardComponent>
 )

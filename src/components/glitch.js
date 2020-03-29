@@ -1,5 +1,12 @@
 import React, { useRef, useEffect, useState } from "react"
 import { applyParallax } from "../utils/relax"
+import styled from "styled-components"
+
+const Img = styled.img`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`
 
 const Glitch = props => {
   const parallaxRef = useRef(null)
@@ -19,7 +26,7 @@ const Glitch = props => {
     })
   }, [parallaxRef])
   return animations ? (
-    <img
+    <Img
       ref={parallaxRef}
       width={props.width}
       src={props.src}
@@ -27,7 +34,7 @@ const Glitch = props => {
       style={{ position: "absolute", opacity: 0.5, ...props.style }}
     />
   ) : (
-    <img
+    <Img
       width={props.width}
       src={props.src}
       alt=""

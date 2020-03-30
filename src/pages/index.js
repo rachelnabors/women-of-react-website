@@ -269,7 +269,7 @@ const IndexPage = () => {
       <Card header="Register">
         <Register />
       </Card>
-      <Card header="Frequently Asked Questions">
+      <Card header="FrequentlyAskedQuestions">
         <Dl>
           <dt>Why are you doing this?</dt>
           <dd>Because we want to bring women who work with React together.</dd>

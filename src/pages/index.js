@@ -171,7 +171,7 @@ const IndexPage = () => {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Social Milling</th>
+              <th scope="row">Socializing</th>
               <td>09:30</td>
               <td>12:30</td>
               <td>16:30</td>

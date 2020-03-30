@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
 import CodeElement from "../components/CodeElement"
-import SEO from "../components/seo"
 import styled from "styled-components"
 import Card from "../components/Card"
 import Register from "../components/register"
@@ -128,7 +128,42 @@ const Dl = styled.dl``
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Women of React" />
+      <Helmet>
+        <title>Women of React Conf—Saturday, April 25, 2020</title>
+        <meta
+          name="title"
+          content="Women of React Conf—Saturday, April 25, 2020"
+        />
+        <meta
+          name="description"
+          content="An online event featuring talks from women in the React community from around the world!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://womenofreact.com/" />
+        <meta
+          property="og:title"
+          content="Women of React Conf—Saturday, April 25, 2020"
+        />
+        <meta
+          property="og:description"
+          content="An online event featuring talks from women in the React community from around the world!"
+        />
+        <meta property="og:image" content="https://women-of-react_hero.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://womenofreact.com/" />
+        <meta
+          property="twitter:title"
+          content="Women of React Conf—Saturday, April 25, 2020"
+        />
+        <meta
+          property="twitter:description"
+          content="An online event featuring talks from women in the React community from around the world!"
+        />
+        <meta
+          property="twitter:image"
+          content="https://women-of-react_hero.png"
+        ></meta>
+      </Helmet>
       <Banner>
         Sat, April 25, 2020 <Online>Online Conference</Online>
       </Banner>

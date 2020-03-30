@@ -385,7 +385,7 @@ const IndexPage = () => {
               <img src={kevin} alt="" />
               <p>Kevin Lewis</p>
             </a>
-            A/V Crew
+            Organizer, A/V Crew
           </li>
         </ImageGrid>
       </Card>

@@ -148,7 +148,10 @@ const IndexPage = () => {
           property="og:description"
           content="An online event featuring talks from women in the React community from around the world!"
         />
-        <meta property="og:image" content="https://women-of-react_hero.png" />
+        <meta
+          property="og:image"
+          content="https://womenofreact.com/women-of-react_hero.png"
+        />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://womenofreact.com/" />
         <meta
@@ -161,7 +164,7 @@ const IndexPage = () => {
         />
         <meta
           property="twitter:image"
-          content="https://women-of-react_hero.png"
+          content="https://womenofreact.com/women-of-react_hero.png"
         ></meta>
       </Helmet>
       <Banner>

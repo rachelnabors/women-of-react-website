@@ -70,38 +70,38 @@ export default () => {
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
-        class="validate"
+        className="validate"
         target="_blank"
       >
         <div id="mc_embed_signup_scroll">
-          <div class="stack">
+          <div className="stack">
             <div>
-              <label HtmlFor="mce-FNAME">First Name</label>
+              <label htmlFor="mce-FNAME">First Name</label>
               <input
                 type="text"
                 name="FNAME"
-                class="required"
+                className="required"
                 id="mce-FNAME"
                 required
               />
             </div>
             <div>
-              <label HtmlFor="mce-LNAME">Last Name</label>
+              <label htmlFor="mce-LNAME">Last Name</label>
               <input
                 type="text"
                 name="LNAME"
-                class="required"
+                className="required"
                 id="mce-LNAME"
                 required
               />
             </div>
           </div>
-          <div class="mc-field-group">
-            <label HtmlFor="mce-EMAIL">Email Address</label>
+          <div className="mc-field-group">
+            <label htmlFor="mce-EMAIL">Email Address</label>
             <input
               type="email"
               name="EMAIL"
-              class="required email"
+              className="required email"
               id="mce-EMAIL"
               required
             />
@@ -110,16 +110,16 @@ export default () => {
             <input
               type="checkbox"
               name="group[3946][2]"
-              class="required"
+              className="required"
               id="mce-group[3946]-3946-0"
               required
             />
-            <label HtmlFor="mce-group[3946]-3946-0">
+            <label htmlFor="mce-group[3946]-3946-0">
               I have read and agree to abide by the{" "}
               <Link to="code-of-conduct">Code of Conduct</Link>
             </label>
           </div>
-          <div class="mc-field-group input-group">
+          <div className="mc-field-group input-group">
             <input
               type="checkbox"
               name="group[3942][1]"
@@ -127,23 +127,23 @@ export default () => {
             />
             <label
               style={{ display: "inline" }}
-              HtmlFor="mce-group[3942]-3942-0"
+              htmlFor="mce-group[3942]-3942-0"
             >
               I'd like to receive communications about future Women of React
               events and news <strong>(Optional)</strong>
             </label>
           </div>
-          <div id="mce-responses" class="clear">
+          <div id="mce-responses" className="clear">
             <div
-              class="response"
+              className="response"
               id="mce-error-response"
               style={{ display: "none" }}
-            ></div>
+            />
             <div
-              class="response"
+              className="response"
               id="mce-success-response"
               style={{ display: "none" }}
-            ></div>
+            />
           </div>
           <div
             style={{ position: "absolute", left: "-5000px" }}
@@ -152,16 +152,16 @@ export default () => {
             <input
               type="text"
               name="b_b3435742d799f1fefa641731f_e6a6123095"
-              tabindex="-1"
+              tabIndex="-1"
             />
           </div>
-          <div class="clear">
+          <div className="clear">
             <input
               type="submit"
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
-              class="button"
+              className="button"
             />
           </div>
         </div>

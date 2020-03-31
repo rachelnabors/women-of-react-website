@@ -32,7 +32,7 @@ const Illustration = props => (
       fill="none"
       viewBox="0 0 800 509"
     >
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <path fill="#fff" d="M0 0h800v509H0z"></path>
         <path fill="#171D85" d="M0 367h800v151H0z"></path>
         <mask

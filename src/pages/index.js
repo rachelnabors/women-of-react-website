@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
-import CodeElement from "../components/CodeElement"
-import styled from "styled-components"
-import Card from "../components/Card"
+import CodeElement  from "../components/code-element"
+import styled       from "styled-components"
+import Card     from "../components/card"
 import Register from "../components/register"
 import FacebookOSS from "../sponsors/facebookOSS.jpg"
 import aws from "../sponsors/aws.png"
@@ -165,7 +165,7 @@ const IndexPage = () => {
         <meta
           property="twitter:image"
           content="https://womenofreact.com/women-of-react_hero.png"
-        ></meta>
+        />
       </Helmet>
       <Banner>
         Sat, April 25, 2020 <Online>Online Conference</Online>
@@ -195,7 +195,7 @@ const IndexPage = () => {
         <Table>
           <thead>
             <tr>
-              <th colspan="1"></th>
+              <th colSpan="1"/>
               <th scope="col">
                 <attr title="Pacific Standard Time">PST</attr>
               </th>

@@ -10,9 +10,6 @@ const Styled = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
   html,
-  body {
-    overflow-x: hidden;
-  }
 
   body {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

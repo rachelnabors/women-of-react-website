@@ -7,20 +7,22 @@ import bg from "../images/bg_diag.svg"
 
 const Styled = createGlobalStyle`
   ${normalize}
-  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
 
   html,
-
   body {
     font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.5;
-    background: #F5DCDC url(${bg}) left bottom no-repeat;
     color: white;
     padding: 0 1em;
 
     * {
       box-sizing: border-box;
     }
+  }
+
+  body {
+    background: #F5DCDC url(${bg}) left bottom no-repeat;
   }
 
   footer {

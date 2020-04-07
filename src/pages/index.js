@@ -413,7 +413,11 @@ const IndexPage = () => {
         />
         <ImageGrid>
           <li>
-            <a rel="noopener noreferrer" target="_blank" href="https://aws.com">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://aws-amplify.github.io/"
+            >
               <img src={aws} alt="Amazon Web Services" />
             </a>
           </li>

@@ -27,6 +27,7 @@ const CardComponent = styled.section`
 `
 
 const Heading = styled.h2`
+  font-family: "Inconsolata", monospace;
   display: inline;
   font-weight: bold;
   font-size: 20px;
@@ -36,20 +37,24 @@ const Heading = styled.h2`
   color: #ff73c6;
 
   :before {
+    font-family: "Inconsolata", monospace;
     content: "export const ";
     color: #fce2bb;
   }
   :after {
+    font-family: "Inconsolata", monospace;
     content: " = ";
   }
 `
 
 const Space = styled.span`
   :before {
+    font-family: "Inconsolata", monospace;
     color: #fce2bb;
     content: "() ";
   }
   :after {
+    font-family: "Inconsolata", monospace;
     color: #ff73c6;
     content: "=> ( ";
   }

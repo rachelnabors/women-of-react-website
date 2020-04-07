@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
-import CodeElement  from "../components/code-element"
-import styled       from "styled-components"
-import Card     from "../components/card"
+import CodeElement from "../components/code-element"
+import styled from "styled-components"
+import Card from "../components/card"
 import Register from "../components/register"
 import FacebookOSS from "../sponsors/facebookOSS.jpg"
 import aws from "../sponsors/aws.png"
@@ -19,6 +19,7 @@ import jenn from "../images/p_jenn-c.jpg"
 import rachel from "../images/p_rachel-n.jpg"
 import sara from "../images/p_sara-v.jpg"
 import kevin from "../images/p_kevin.jpg"
+import cassidy from "../images/cassidy.jpg"
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -195,7 +196,7 @@ const IndexPage = () => {
         <Table>
           <thead>
             <tr>
-              <th colSpan="1"/>
+              <th colSpan="1" />
               <th scope="col">
                 <attr title="Pacific Standard Time">PST</attr>
               </th>
@@ -303,6 +304,21 @@ const IndexPage = () => {
             </tr>
           </tbody>
         </Table>
+      </Card>
+      <Card header="Speakers">
+        <ImageGrid className="folks">
+          <li>
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://twitter.com/cassidoo"
+            >
+              <img src={cassidy} alt="" />
+              <p>Cassidy Williams</p>
+            </a>
+            Master of Ceremonies
+          </li>
+        </ImageGrid>
       </Card>
       <Card header="Register">
         <Register />

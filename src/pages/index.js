@@ -225,25 +225,38 @@ const IndexPage = () => {
               <td>16:45</td>
             </tr>
             <tr>
-              <th scope="row">Talk 1</th>
+              <th scope="row">
+                <a href="https://twitter.com/yurm04">Yuraima</a> TL;DR
+                Accessible Components : tips for building out accessible
+                components
+              </th>
               <td>10:00</td>
               <td>13:00</td>
               <td>17:00</td>
             </tr>
             <tr>
-              <th scope="row">Talk 2</th>
+              <th scope="row">
+                <a href="https://twitter.com/hellonehha">Neha Sharma</a> on
+                Design Systems
+              </th>
               <td>10:35</td>
               <td>13:35</td>
               <td>17:35</td>
             </tr>
             <tr>
-              <th scope="row">Talk 3</th>
+              <th scope="row">
+                <a href="https://twitter.com/TaleyaMirza">Taley'a Mirza</a>{" "}
+                Level up your Design System with styled-system
+              </th>
               <td>11:10</td>
               <td>14:10</td>
               <td>18:10</td>
             </tr>
             <tr>
-              <th scope="row">Longer Break—Grab a bite to eat</th>
+              <th scope="row">
+                Longer snack break plus yoga with{" "}
+                <a href="https://twitter.com/gurlcode">Jenn Creighton</a>!
+              </th>
               <td>11:45</td>
               <td>14:45</td>
               <td>18:45</td>
@@ -255,13 +268,20 @@ const IndexPage = () => {
               <td>19:30</td>
             </tr>
             <tr>
-              <th scope="row">Talk 4</th>
+              <th scope="row">
+                <a href="https://twitter.com/Mappletons">Maggie Appleton</a>{" "}
+                Drawing the Invisible: How to Explain React through Visual
+                Metaphors
+              </th>
               <td>13:05</td>
               <td>16:05</td>
               <td>20:05</td>
             </tr>
             <tr>
-              <th scope="row">Talk 5</th>
+              <th scope="row">
+                <a href="https://twitter.com/imAnushree">Anushree Subramani</a>{" "}
+                on React Dev Tools
+              </th>
               <td>13:40</td>
               <td>16:40</td>
               <td>20:40</td>
@@ -279,13 +299,21 @@ const IndexPage = () => {
               <td>21:30</td>
             </tr>
             <tr>
-              <th scope="row">Talk 6</th>
+              <th scope="row">
+                <a href="https://twitter.com/eveporcello">Eve Porcello</a> React
+                Suspense: So Nice You’ll Learn It Twice
+              </th>
               <td>15:00</td>
               <td>18:00</td>
               <td>22:00</td>
             </tr>
             <tr>
-              <th scope="row">Talk 7</th>
+              <th scope="row">
+                <a href="https://twitter.com/adriannavaldivi">
+                  Adrianna Valdivi
+                </a>{" "}
+                on preparing for React tech interviews
+              </th>
               <td>15:35</td>
               <td>17:35</td>
               <td>22:35</td>

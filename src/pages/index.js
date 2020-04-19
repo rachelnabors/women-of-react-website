@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
+import Speakers from "../components/speakers"
 import CodeElement from "../components/code-element"
 import styled from "styled-components"
 import Card from "../components/card"
@@ -19,7 +20,6 @@ import jenn from "../images/p_jenn-c.jpg"
 import rachel from "../images/p_rachel-n.jpg"
 import sara from "../images/p_sara-v.jpg"
 import kevin from "../images/p_kevin.jpg"
-import cassidy from "../images/cassidy.jpg"
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -36,6 +36,7 @@ const ImageGrid = styled.ul`
   display: flex;
   align-items: flex-start;
   padding: 8px;
+  flex-wrap: wrap;
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
@@ -55,6 +56,11 @@ const ImageGrid = styled.ul`
     padding: 0;
     text-align: center;
     width: calc(25% - 20px);
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 700px) {
+      width: calc(50% - 20px);
+    }
 
     @media screen and (max-width: 600px) {
       width: 100%;
@@ -335,17 +341,7 @@ const IndexPage = () => {
       </Card>
       <Card header="Speakers">
         <ImageGrid className="folks">
-          <li>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/cassidoo"
-            >
-              <img src={cassidy} alt="" />
-              <p>Cassidy Williams</p>
-            </a>
-            Master of Ceremonies
-          </li>
+          <Speakers />
         </ImageGrid>
       </Card>
       <Card header="Register">

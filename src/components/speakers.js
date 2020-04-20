@@ -109,7 +109,7 @@ export default () => (
         <img src={carolyn} alt="" />
         <p>Carolyn Stransky</p>
       </a>
-      TBD
+      The Most Important UI: You
     </li>
     <li>
       <a

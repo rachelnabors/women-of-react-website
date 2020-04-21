@@ -87,7 +87,7 @@ export default () => (
         <img src={eve} alt="" />
         <p>Eve Porcello</p>
       </a>
-      React Suspense: So Nice You’ll Learn It Twice
+      Finding the Fun: Using <abbr title="Test Drive Development">TDD</abbr> with React
     </li>
     <li>
       <a

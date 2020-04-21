@@ -307,7 +307,7 @@ const IndexPage = () => {
             <tr>
               <th scope="row">
                 <a href="https://twitter.com/eveporcello">Eve Porcello</a> React
-                Suspense: So Nice You’ll Learn It Twice
+                Finding the Fun: Using <abbr title="Test Driven Development">TDD</abbr> with React
               </th>
               <td>15:00</td>
               <td>18:00</td>

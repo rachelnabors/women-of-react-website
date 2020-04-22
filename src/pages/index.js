@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 import Illustration from "../components/illustration"
+import SpecialGuests from "../components/specialGuests"
 import Speakers from "../components/speakers"
 import CodeElement from "../components/code-element"
 import styled from "styled-components"
@@ -182,10 +183,10 @@ const IndexPage = () => {
         <CodeElement element="<p>" />
         Women of React is an online conference where women take the (virtual)
         stage, but everyone is welcome to attend and participate! Watch the
-        stream live, ask your questions on our moderated Discord, forge new and meaningful connections, learn
-        a little, laugh a little. Put together by and for women working with
-        React, this event is small, from the heart, and very much a labor of
-        love meant to bring people together.
+        stream live, ask your questions on our moderated Discord, forge new and
+        meaningful connections, learn a little, laugh a little. Put together by
+        and for women working with React, this event is small, from the heart,
+        and very much a labor of love meant to bring people together.
         <CodeElement element="</p>" />
         <Glitch
           width="220"
@@ -307,7 +308,8 @@ const IndexPage = () => {
             <tr>
               <th scope="row">
                 <a href="https://twitter.com/eveporcello">Eve Porcello</a> React
-                Finding the Fun: Using <abbr title="Test Driven Development">TDD</abbr> with React
+                Finding the Fun: Using{" "}
+                <abbr title="Test Driven Development">TDD</abbr> with React
               </th>
               <td>15:00</td>
               <td>18:00</td>
@@ -342,6 +344,11 @@ const IndexPage = () => {
       <Card header="Speakers">
         <ImageGrid className="folks">
           <Speakers />
+        </ImageGrid>
+      </Card>
+      <Card header="Special Guests">
+        <ImageGrid className="folks">
+          <SpecialGuests />
         </ImageGrid>
       </Card>
       <Card header="Register">

@@ -182,7 +182,7 @@ const IndexPage = () => {
         <CodeElement element="<p>" />
         Women of React is an online conference where women take the (virtual)
         stage, but everyone is welcome to attend and participate! Watch the
-        stream, ask your questions, forge new and meaningful connections, learn
+        stream live, ask your questions on our moderated Discord, forge new and meaningful connections, learn
         a little, laugh a little. Put together by and for women working with
         React, this event is small, from the heart, and very much a labor of
         love meant to bring people together.

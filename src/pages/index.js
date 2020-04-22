@@ -219,7 +219,7 @@ const IndexPage = () => {
               <th scope="row">Socializing</th>
               <td>09:30</td>
               <td>12:30</td>
-              <td>16:30</td>
+              <td>17:30</td>
             </tr>
             <tr>
               <th scope="row">
@@ -228,7 +228,7 @@ const IndexPage = () => {
               </th>
               <td>9:45</td>
               <td>12:45</td>
-              <td>16:45</td>
+              <td>17:45</td>
             </tr>
             <tr>
               <th scope="row">
@@ -238,7 +238,7 @@ const IndexPage = () => {
               </th>
               <td>10:00</td>
               <td>13:00</td>
-              <td>17:00</td>
+              <td>18:00</td>
             </tr>
             <tr>
               <th scope="row">
@@ -247,7 +247,7 @@ const IndexPage = () => {
               </th>
               <td>10:35</td>
               <td>13:35</td>
-              <td>17:35</td>
+              <td>18:35</td>
             </tr>
             <tr>
               <th scope="row">
@@ -256,7 +256,7 @@ const IndexPage = () => {
               </th>
               <td>11:10</td>
               <td>14:10</td>
-              <td>18:10</td>
+              <td>19:10</td>
             </tr>
             <tr>
               <th scope="row">
@@ -265,13 +265,13 @@ const IndexPage = () => {
               </th>
               <td>11:45</td>
               <td>14:45</td>
-              <td>18:45</td>
+              <td>19:45</td>
             </tr>
             <tr>
               <th scope="row">Fireside Chat</th>
               <td>12:30</td>
               <td>15:30</td>
-              <td>19:30</td>
+              <td>20:30</td>
             </tr>
             <tr>
               <th scope="row">
@@ -281,7 +281,7 @@ const IndexPage = () => {
               </th>
               <td>13:05</td>
               <td>16:05</td>
-              <td>20:05</td>
+              <td>21:05</td>
             </tr>
             <tr>
               <th scope="row">
@@ -290,19 +290,19 @@ const IndexPage = () => {
               </th>
               <td>13:40</td>
               <td>16:40</td>
-              <td>20:40</td>
+              <td>21:40</td>
             </tr>
             <tr>
               <th scope="row">Break</th>
               <td>14:15</td>
               <td>17:15</td>
-              <td>21:15</td>
+              <td>22:15</td>
             </tr>
             <tr>
               <th scope="row">Lightning Talks</th>
               <td>14:30</td>
               <td>17:30</td>
-              <td>21:30</td>
+              <td>22:30</td>
             </tr>
             <tr>
               <th scope="row">
@@ -311,7 +311,7 @@ const IndexPage = () => {
               </th>
               <td>15:00</td>
               <td>18:00</td>
-              <td>22:00</td>
+              <td>23:00</td>
             </tr>
             <tr>
               <th scope="row">
@@ -322,19 +322,19 @@ const IndexPage = () => {
               </th>
               <td>15:35</td>
               <td>17:35</td>
-              <td>22:35</td>
+              <td>23:35</td>
             </tr>
             <tr>
               <th scope="row">Q & A</th>
               <td>16:10</td>
               <td>19:10</td>
-              <td>23:10</td>
+              <td>00:10</td>
             </tr>
             <tr>
               <th scope="row">Goodbye, we love you!</th>
               <td>17:00</td>
               <td>20:00</td>
-              <td>24:00</td>
+              <td>01:00</td>
             </tr>
           </tbody>
         </Table>

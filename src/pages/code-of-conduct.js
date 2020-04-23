@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import Card   from "../components/card"
+import Card from "../components/card"
 
 export default () => (
   <Layout>
@@ -106,12 +106,28 @@ export default () => (
 
       <p>
         If you are subject to or witness unacceptable behavior, or have any
-        other concerns, please notify one of the community moderators or organizers through the <a href="https://docs.google.com/forms/d/1RhKtde4VuBTFCgz6x2U5VbxrlF8FVNaPlIslV8GFVp8/edit?ts=5e9e2aab" target="_blank">Code of Conduct Violation Report</a> or the <a href="https://docs.google.com/document/d/1FjApAhndVbyD-1RSlYajxiL1HkSRWGJKul7qc_Grg3E/edit?usp=sharing" target="_blank">?report command</a> provided in the Women of React Discord.
-        Additionally, community organizers are available to help community members engage with
-        local law enforcement or to otherwise help those experiencing
-        unacceptable behavior feel safe. In the context of in-person events,
-        organizers will also provide escorts as desired by the person
-        experiencing distress.
+        other concerns, please notify one of the community moderators or
+        organizers through the{" "}
+        <a
+          href="https://docs.google.com/forms/d/1RhKtde4VuBTFCgz6x2U5VbxrlF8FVNaPlIslV8GFVp8/edit?ts=5e9e2aab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code of Conduct Violation Report
+        </a>{" "}
+        or the{" "}
+        <a
+          href="https://docs.google.com/document/d/1FjApAhndVbyD-1RSlYajxiL1HkSRWGJKul7qc_Grg3E/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ?report command
+        </a>{" "}
+        provided in the Women of React Discord. Additionally, community
+        organizers are available to help community members engage with local law
+        enforcement or to otherwise help those experiencing unacceptable
+        behavior feel safe. In the context of in-person events, organizers will
+        also provide escorts as desired by the person experiencing distress.
       </p>
 
       <h2>Addressing Grievances</h2>

@@ -269,7 +269,56 @@ const IndexPage = () => {
               <td>19:45</td>
             </tr>
             <tr>
-              <th scope="row">Fireside Chat</th>
+              <th scope="row">
+                Fireside Chat with{" "}
+                <a
+                  href="https://twitter.com/rachelnabors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rachel Nabors
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/NikkitaFTW"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sara Vieira
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/gurlcode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Jenn Creighton
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/cassidoo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cassidy Williams
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/ParissAthena"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pariss Athena
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/shrutikapoor08"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Shruti Kapoor
+                </a>
+              </th>
               <td>12:30</td>
               <td>15:30</td>
               <td>20:30</td>
@@ -300,7 +349,32 @@ const IndexPage = () => {
               <td>22:15</td>
             </tr>
             <tr>
-              <th scope="row">Lightning Talks</th>
+              <th scope="row">
+                Lightning Talks by{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/carolstran"
+                >
+                  Carolyn Stransky
+                </a>
+                ,{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/frontendgirl"
+                >
+                  Olena Sovyn
+                </a>
+                ,{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://twitter.com/knitcodemonkey"
+                >
+                  Jen Luker
+                </a>
+              </th>
               <td>14:30</td>
               <td>17:30</td>
               <td>22:30</td>
@@ -327,7 +401,56 @@ const IndexPage = () => {
               <td>23:35</td>
             </tr>
             <tr>
-              <th scope="row">Q & A</th>
+              <th scope="row">
+                Q & A with{" "}
+                <a
+                  href="https://twitter.com/sophiebits"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Sophie Alpert
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/ProvablyFlarnie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Flarnie Marchan
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/lunaruan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Luna Ruan
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/shubhie"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Shubhie Panicker
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/stubbornella"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Nicole Sullivan
+                </a>
+                ,{" "}
+                <a
+                  href="https://twitter.com/rachelnabors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Rachel Nabors
+                </a>
+              </th>
               <td>16:10</td>
               <td>19:10</td>
               <td>00:10</td>

@@ -211,7 +211,7 @@ const IndexPage = () => {
                 <attr title="Eastern Standard Time">EST</attr>
               </th>
               <th scope="col">
-                <attr title="Greenwich Median Time">GMT</attr>
+                <attr title="British Summer Time">BST</attr>
               </th>
             </tr>
           </thead>

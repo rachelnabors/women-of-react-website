@@ -262,7 +262,7 @@ const IndexPage = () => {
             <tr>
               <th scope="row">
                 Longer snack break plus yoga with{" "}
-                <a href="https://twitter.com/lunaruan">Luna Ruan</a>!
+                <a href="https://twitter.com/lunaleaps">Luna Wei</a>!
               </th>
               <td>11:45</td>
               <td>14:45</td>

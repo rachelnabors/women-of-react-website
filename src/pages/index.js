@@ -346,7 +346,7 @@ const IndexPage = () => {
           <Speakers />
         </ImageGrid>
       </Card>
-      <Card header="Special Guests">
+      <Card header="SpecialGuests">
         <ImageGrid className="folks">
           <SpecialGuests />
         </ImageGrid>

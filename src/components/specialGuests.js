@@ -4,10 +4,32 @@ import luna from "../images/luna.jpg"
 import shubhie from "../images/shubhie.jpg"
 import lunaleaps from "../images/lunaleaps.jpg"
 import flarnie from "../images/flarnie.png"
+import pariss from "../images/p_pariss.jpg"
+import shruti from "../images/p_shruti.jpg"
 import nicole from "../images/nicole.jpeg"
 
 export default () => (
   <>
+    <li>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://twitter.com/shrutikapoor08"
+      >
+        <img src={shruti} alt="" />
+        <p>Shruti Kapoor</p>
+      </a>
+    </li>
+    <li>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://twitter.com/ParissAthena"
+      >
+        <img src={pariss} alt="" />
+        <p>Pariss Athena</p>
+      </a>
+    </li>
     <li>
       <a
         rel="noopener noreferrer"

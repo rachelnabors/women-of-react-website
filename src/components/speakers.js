@@ -9,6 +9,7 @@ import eve from "../images/eve.jpg"
 import av from "../images/av.jpg"
 import carolyn from "../images/carolyn.jpg"
 import olena from "../images/olena.jpg"
+import jen from "../images/jen.jpg"
 
 export default () => (
   <>
@@ -87,7 +88,8 @@ export default () => (
         <img src={eve} alt="" />
         <p>Eve Porcello</p>
       </a>
-      Finding the Fun: Using <abbr title="Test Drive Development">TDD</abbr> with React
+      Finding the Fun: Using <abbr title="Test Drive Development">TDD</abbr>{" "}
+      with React
     </li>
     <li>
       <a
@@ -121,6 +123,17 @@ export default () => (
         <p>Olena Sovyn</p>
       </a>
       Testing, tEstIng, TeStInG
+    </li>
+    <li>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://twitter.com/knitcodemonkey"
+      >
+        <img src={jen} alt="" />
+        <p>Jen Luker</p>
+      </a>
+      TBD
     </li>
   </>
 )

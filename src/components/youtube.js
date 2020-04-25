@@ -18,11 +18,11 @@ const Wrapper = styled.div`
 const Youtube = () => {
   return (
     <Wrapper>
-      <h1>
+      <h1 style={{ textAlign: "center" }}>
         Watch online on{" "}
         <a
           style={{ color: "#ff73c6" }}
-          href="https://www.youtube-nocookie.com/embed/K8MF3aDg-bM"
+          href="https://www.youtube.com/watch?v=K8MF3aDg-bM"
           target="_blank"
         >
           YouTube

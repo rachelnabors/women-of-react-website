@@ -21,6 +21,7 @@ import jenn from "../images/p_jenn-c.jpg"
 import rachel from "../images/p_rachel-n.jpg"
 import sara from "../images/p_sara-v.jpg"
 import kevin from "../images/p_kevin.jpg"
+import Youtube from "../components/youtube"
 
 const MainIllustration = styled(Illustration)`
   max-width: 100%;
@@ -178,7 +179,7 @@ const IndexPage = () => {
       <Banner>
         Sat, April 25, 2020 <Online>Online Conference</Online>
       </Banner>
-      <MainIllustration />
+      <Youtube />
       <Card header="WomenOfReact" text>
         <CodeElement element="<p>" />
         Women of React is an online conference where women take the (virtual)

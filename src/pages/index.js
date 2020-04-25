@@ -398,7 +398,7 @@ const IndexPage = () => {
                 on preparing for React tech interviews
               </th>
               <td>15:35</td>
-              <td>17:35</td>
+              <td>18:35</td>
               <td>23:35</td>
             </tr>
             <tr>

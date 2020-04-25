@@ -475,9 +475,6 @@ const IndexPage = () => {
           <SpecialGuests />
         </ImageGrid>
       </Card>
-      <Card header="Register">
-        <Register />
-      </Card>
       <Card header="FrequentlyAskedQuestions">
         <Dl>
           <dt>Why are you doing this?</dt>

@@ -2,13 +2,17 @@ import React from "react"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
+  max-width: 100%;
   width: 800px;
   height: 509px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+  @media screen and (min-width: 800px) {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  }
 `
 
 const Youtube = () => {

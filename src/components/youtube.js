@@ -18,14 +18,17 @@ const Wrapper = styled.div`
 const Youtube = () => {
   return (
     <Wrapper>
-      <iframe
-        width="764"
-        height="441"
-        src="https://www.youtube-nocookie.com/embed/K8MF3aDg-bM"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <h1>
+        Watch online on{" "}
+        <a
+          style={{ color: "#ff73c6" }}
+          href="https://www.youtube-nocookie.com/embed/K8MF3aDg-bM"
+          target="_blank"
+        >
+          YouTube
+        </a>
+      </h1>
+
       <svg
         style={{ position: "absolute", zIndex: -1 }}
         width={800}

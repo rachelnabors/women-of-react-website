@@ -25,7 +25,7 @@ const Youtube = () => {
     <IllustrationContainer>
       <a
         style={{ color: "#ff73c6" }}
-        href="https://www.youtube-nocookie.com/embed/K8MF3aDg-bM"
+        href="https://www.youtube.com/watch?v=K8MF3aDg-bM"
         target="_blank"
       >
         <svg
